@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<!-- Sayfa başlığı (Tarayıcı sekmesinde görünen isim) -->
+<title>ATS Resume Template</title>
+
+<style>
+@page {
+    margin: 0.5in;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Times New Roman", Times, serif;
+    font-size: 11pt;
+    line-height: 1.5;
+    color: #000;
+    max-width: 8.5in;
+    margin: 0 auto;
+    padding: 0.5in;
+}
+
+/* === HEADER (Ad Soyad & İletişim) === */
+
+.header-container {
+    display: flex;
+    flex-direction: column; 
+    align-items: center;    
+    text-align: center;    
+    margin-bottom: 18pt;
+}
+
+/* === BAŞLIKLAR === */
+
+h1 {
+    font-size: 26pt;
+    font-weight: bold;
+    margin-bottom: 4pt;
+}
+
+h2 {
+    font-size: 12pt;
+    font-weight: bold;
+    margin-top: 18pt;
+    margin-bottom: 8pt;
+    padding-bottom: 2pt;
+    border-bottom: 1px solid #000;
+}
+
+/* === İLETİŞİM === */
+
+.contact {
+    font-size: 10pt;
+    line-height: 1.6;
+}
+
+/* === ÖZET === */
+
+.summary {
+    margin-bottom: 18pt;
+    text-align: justify;
+}
+
+/* === DENEYİM & EĞİTİM ORTAK YAPI === */
+
+.entry-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    margin-top: 10pt;
+}
+
+.entry-left {
+    display: flex;
+    flex-direction: column;
+}
+
+.entry-title {
+    font-weight: bold;
+    font-size: 12pt;
+}
+
+.entry-subtitle {
+    font-weight: normal;
+    font-size: 11pt;
+}
+
+.entry-date {
+    font-style: italic;
+    font-size: 10pt;
+    white-space: nowrap;
+}
+
+/* === LİSTELER === */
+
+ul {
+    margin-left: 20pt;
+    margin-top: 4pt;
+    margin-bottom: 8pt;
+}
+
+li {
+    margin-bottom: 4pt;
+}
+
+/* === TEKNOLOJİ SATIRI === */
+
+.tech-line {
+    margin-top: 4pt;
+    font-size: 10pt;
+}
+
+.tech-label {
+    font-weight: bold;
+}
+
+.skills p {
+    margin-bottom: 6pt;
+}
+
+@media print {
+    body {
+        padding: 0;
+    }
+}
+</style>
+</head>
+
+<body>
+
+<!-- ================= HEADER ================= -->
+<header class="header-container">
+
+    <!-- AD SOYAD -->
+    <h1>AD SOYAD</h1>
+
+    <div class="contact">
+        <!-- Ünvan (Örn: Yazılım Mühendisi / Data Analyst / Product Manager) -->
+        <p><strong>PROFESYONEL ÜNVAN</strong></p>
+
+        <!-- Konum -->
+        <p>Şehir, Ülke</p>
+
+        <!-- Telefon ve E-posta -->
+        <p>Telefon Numaranız | email@adresiniz.com</p>
+
+        <!-- LinkedIn / GitHub / Portfolyo -->
+        <p>linkedin.com/in/kullaniciadi | github.com/kullaniciadi</p>
+    </div>
+</header>
+
+
+<!-- ================= HAKKIMDA ================= -->
+<section>
+    <h2>HAKKIMDA</h2>
+
+    <p class="summary">
+        <!--
+        Buraya 4-6 satırlık profesyonel özet yazılır.
+        - Uzmanlık alanın
+        - Deneyim seviyen
+        - Teknik odağın
+        - Ne tür roller hedeflediğin
+        - Değer önerin
+        -->
+        Kısa profesyonel özetinizi buraya yazınız.
+    </p>
+</section>
+
+
+<!-- ================= DENEYİM ================= -->
+<section>
+    <h2>DENEYİM</h2>
+
+    <!-- === İş Deneyimi 1 === -->
+    <div class="entry-header">
+        <div class="entry-left">
+            <span class="entry-title">Pozisyon Adı</span>
+            <span class="entry-subtitle">Şirket Adı | Şehir (Çalışma Türü)</span>
+        </div>
+        <span class="entry-date">AA/YYYY – BB/YYYY</span>
+    </div>
+
+    <ul>
+        <li>
+            <!-- Sorumluluk / Başarı -->
+            Bu pozisyonda gerçekleştirdiğiniz önemli katkıyı yazın.
+        </li>
+        <li>
+            Ölçülebilir sonuç ekleyin (örn: %20 performans artışı sağlandı).
+        </li>
+    </ul>
+
+    <p class="tech-line">
+        <span class="tech-label">Kullandığınız Teknolojiler:</span>
+        Teknoloji1 | Teknoloji2 | Teknoloji3
+    </p>
+
+
+    <!-- Yeni deneyim eklemek için yukarıdaki bloğu kopyalayın -->
+
+</section>
+
+
+<!-- ================= EĞİTİM ================= -->
+<section>
+    <h2>EĞİTİM</h2>
+
+    <div class="entry-header">
+        <div class="entry-left">
+            <span class="entry-title">Bölüm Adı</span>
+            <span class="entry-subtitle">Üniversite Adı – Fakülte</span>
+        </div>
+        <span class="entry-date">AA/YYYY – BB/YYYY</span>
+    </div>
+</section>
+
+
+<!-- ================= YETKİNLİKLER ================= -->
+<section>
+    <h2>YETKİNLİKLER</h2>
+
+    <div class="skills">
+        <!-- Teknik ve yetkinlik alanlarını madde madde yazın -->
+        <p>- Yetkinlik Alanı 1</p>
+        <p>- Yetkinlik Alanı 2</p>
+        <p>- Yetkinlik Alanı 3</p>
+        <p>- Yetkinlik Alanı 4</p>
+    </div>
+</section>
+
+
+<!-- ================= REFERANSLAR ================= -->
+<section>
+    <h2>REFERANSLAR</h2>
+    <p>
+        Referanslar talep üzerine paylaşılacaktır.
+    </p>
+</section>
+
+</body>
+</html>
