@@ -6,7 +6,12 @@ ATS uyumlu, HTML ve CSS tabanlı bir CV (özgeçmiş) şablonu.
 
 Aşağıda CV’min görseli yer almaktadır. Sayfa 1 ve Sayfa 2, tek görsel içerisinde yan yana hizalanmıştır.
 
-![CV Görseli](cv.png)
+<div align="center">
+Dilerseniz CV’min PDF halini <a href="assets/cv_ abdullah_tanriverdi_main.pdf" target="_blank">buradan indirebilirsiniz</a>.
+</div>
+<div align="center">
+  <img src="assets/cv.png" alt="CV Görseli" width="600">
+</div>
 
 ## Amaç
 
