@@ -1,6 +1,13 @@
 # ATS Resume Template
 ATS uyumlu, HTML ve CSS tabanlı bir CV (özgeçmiş) şablonu.
 
+
+## CV Görseli
+
+Aşağıda CV’min görseli yer almaktadır. Sayfa 1 ve Sayfa 2, tek görsel içerisinde yan yana hizalanmıştır.
+
+![CV Görseli](cv.png)
+
 ## Amaç
 
 Bu çalışma, adayların CV’lerinin Applicant Tracking System (ATS) filtrelerinden geçme olasılığını artırmak amacıyla oluşturulmuştur.  
